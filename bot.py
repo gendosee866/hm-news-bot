@@ -12,8 +12,8 @@ logger = logging.getLogger(__name__)
 
 # Get environment variables
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-CHANNEL_ID = os.getenv('CHANNEL_ID')  # Channel where news will be posted
-ADMIN_IDS = os.getenv('ADMIN_IDS', '').split(',')  # Comma-separated admin user IDs
+CHANNEL_ID = os.getenv('CHANNEL_ID', '-1001234567890')  # Замените на ID вашего канала
+ADMIN_IDS = os.getenv('ADMIN_IDS', '1186571866').split(',')  # Замените на ID администраторов
 
 # Storage for pending news (in production use database)
 pending_news = {}
