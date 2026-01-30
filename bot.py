@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Get environment variables
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('8568785795:AAHFXreBXbUF-ojQk2ARATjbvRxFriQdCbY')
 CHANNEL_ID = os.getenv('CHANNEL_ID', '@hm_glavnoe')  # Замените на ID вашего каналаADMIN_IDS = os.getenv('ADMIN_IDS', '1186571866').split(',')  # Замените на ID администраторов
 
 # Storage for pending news (in production use database)
