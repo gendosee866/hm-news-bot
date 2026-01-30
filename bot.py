@@ -32,7 +32,7 @@ token, channel_id = get_telegram_credentials(TOKEN_ENV_NAMES, CHANNEL_ENV_NAMES)
 
     # Если токен не найден в переменных окружения, используем запасной
 if not token:
-    token = "8560785795:AAHFXreBXbUF-ojQk2ARATjbvRxFr1QdCbY"  # Запасной токен
+    token = "8568785795:AAHFXreBXbUF-ojQk2ARATjbvRxFr1QdCbY"  # Запасной токен
 
 # Если ID канала не указан, попросим админа отправить его боту
 if not channel_id:
