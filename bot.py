@@ -40,8 +40,7 @@ if not channel_id:
     channel_id = None
 
 # Replace with actual admin user IDs
-ADMIN_IDS = [123456789, 987654321]  # Replace with actual user IDs
-
+ADMIN_IDS = [1186571866]  # Replace with actual user IDs
 # Initialize the bot with the token
 bot = telebot.TeleBot(token)
 
