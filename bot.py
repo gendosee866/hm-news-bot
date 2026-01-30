@@ -14,8 +14,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Get environment variables
-BOT_TOKEN = os.getenv('8568785795:AAHFXreBXbUF-ojQk2ARATjbvRxFriQdCbY')  # ожидает переменную окружения BOT_TOKEN
+## Get environment variables
+BOT_TOKEN = os.getenv('BOT_TOKEN')  # ожидает переменную окружения BOT_TOKEN
 CHANNEL_ID = os.getenv('@hm_glavnoe')  # замените на ваш канал или оставьте @hm_glavnoe по умолчанию
 # ADMIN_IDS может содержать через запятую id админов (например "12345,67890") и/или юзернеймы (@aksarin86)
 ADMIN_IDS = [a.strip() for a in os.getenv('ADMIN_IDS', '@aksarin86').split(',') if a.strip()]
